@@ -4,8 +4,12 @@ int a = 10;
 int b = 20;
 
 int c = a + b;
-Console.WriteLine(c);
 
+c += 5;
+
+Console.WriteLine(c);
+c -= 2;
+Console.WriteLine(c);
 
 // string apresentacao = "Ola, seja bem-vindo";
 // int quantidade = 1;
