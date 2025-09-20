@@ -1,15 +1,25 @@
 ﻿using ExemploFundamentos.Models;
 
-int a = 10;
-int b = 20;
+//Cast - Casting
+// int a = Convert.ToInt32("5");
 
-int c = a + b;
+int a = int.Parse("5");
 
-c += 5;
+Console.WriteLine(a);
 
-Console.WriteLine(c);
-c -= 2;
-Console.WriteLine(c);
+
+
+
+// int a = 10;
+// int b = 20;
+
+// int c = a + b;
+
+// c += 5;
+
+// Console.WriteLine(c);
+// c -= 2;
+// Console.WriteLine(c);
 
 // string apresentacao = "Ola, seja bem-vindo";
 // int quantidade = 1;
