@@ -1,14 +1,8 @@
 ﻿using ExemploFundamentos.Models;
 
-bool choveu = true;
-bool estaTarde = false;
+Calculadora calc = new Calculadora();
 
-if (!choveu && !estaTarde)
-{
-  Console.WriteLine("Vou pedalar");
-}
-else
-{
-  Console.WriteLine("Vou pedalar um outro dia");
-  
-}
+calc.Somar(5, 2);
+calc.Subtrair(5, 10);
+calc.Multiplicar(5, 5);
+calc.Dividir(20, 4);
