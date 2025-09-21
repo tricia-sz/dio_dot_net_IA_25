@@ -3,12 +3,16 @@
 //Cast - Casting
 // int a = Convert.ToInt32("5");
 
-int a = int.Parse("5");
+// int a = int.Parse("5");
+
+// Console.WriteLine(a);
+
+
+int inteiro = 5;
+
+string a = inteiro.ToString();
 
 Console.WriteLine(a);
-
-
-
 
 // int a = 10;
 // int b = 20;
