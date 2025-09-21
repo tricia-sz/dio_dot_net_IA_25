@@ -1,19 +1,14 @@
 ﻿using ExemploFundamentos.Models;
 
-Console.WriteLine("Digite uma letra");
-string letra = Console.ReadLine();
+bool choveu = true;
+bool estaTarde = false;
 
-switch (letra)
+if (!choveu && !estaTarde)
 {
-  case "a":
-  case "e":
-  case "i":
-  case "o":
-  case "u":
-    Console.WriteLine("É uma vogal");
-    break;
-  default:
-    Console.WriteLine("Não é uma vogal");
-    break;
-
+  Console.WriteLine("Vou pedalar");
+}
+else
+{
+  Console.WriteLine("Vou pedalar um outro dia");
+  
 }
