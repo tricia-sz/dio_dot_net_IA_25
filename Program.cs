@@ -3,27 +3,16 @@
 Console.WriteLine("Digite uma letra");
 string letra = Console.ReadLine();
 
-if (letra == "a")
+if (letra == "a" ||
+    letra == "e" ||
+    letra == "i" ||
+    letra == "o" ||
+    letra == "u")
 {
   Console.WriteLine("Vogal");
 }
-else if (letra == "e")
+else
 {
-  Console.WriteLine("Vogal");
-}
-else if (letra == "i")
-{
-  Console.WriteLine("Vogal");
-}
-else if (letra == "o")
-{
-  Console.WriteLine("Vogal");
-}
-else if (letra == "u")
-{
-  Console.WriteLine("Vogal");
-}
-else 
-{
-    Console.WriteLine("Não é uma vogal");
+  Console.WriteLine("Não é uma vogal");
+  
 }
