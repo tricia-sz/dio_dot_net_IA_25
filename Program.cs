@@ -2,12 +2,23 @@
 
 Calculadora calc = new Calculadora();
 
-// calc.Somar(5, 2);
-// calc.Subtrair(5, 10);
-// calc.Multiplicar(5, 5);
-// calc.Dividir(20, 4);
+int numero = 10;
 
-// calc.Potencia(3,3);
-calc.Seno(9);
-calc.Coseno(6);
-calc.Tangente(3);
+Console.WriteLine(numero);
+
+Console.WriteLine("Incrementando o 10");
+// numero = numero + 1;
+numero++;
+
+Console.WriteLine(numero);
+
+// DECREMENTO
+  int numeroDoDecremento = 20;
+Console.WriteLine(numeroDoDecremento);
+
+
+Console.WriteLine("Decrementando o 20");
+
+numeroDoDecremento--;
+
+Console.WriteLine(numeroDoDecremento);
