@@ -1,14 +1,14 @@
-using ExemploFundamentos.Models;
+// using ExemploFundamentos.Models;
 
-bool ehMaiorDeIdade = false;
-bool possuiAutorizacaoDoResponsavel = false;
+// bool ehMaiorDeIdade = false;
+// bool possuiAutorizacaoDoResponsavel = false;
 
-if (ehMaiorDeIdade || possuiAutorizacaoDoResponsavel)
-{
-  Console.WriteLine("Entrada liberada!");
+// if (ehMaiorDeIdade || possuiAutorizacaoDoResponsavel)
+// {
+//   Console.WriteLine("Entrada liberada!");
 
-}
-else
-{
-  Console.WriteLine("Entrada não liberada!");
-}
+// }
+// else
+// {
+//   Console.WriteLine("Entrada não liberada!");
+// }
