@@ -1,4 +1,4 @@
-﻿using ExemploFundamentos.Models;
+using ExemploFundamentos.Models;
 
 bool ehMaiorDeIdade = false;
 bool possuiAutorizacaoDoResponsavel = false;
