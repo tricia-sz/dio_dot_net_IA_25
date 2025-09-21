@@ -1,23 +1,29 @@
 ﻿using ExemploFundamentos.Models;
 
-int quantidadeEmEstoque = 10;
-int quantidadeCompra = 4;
-bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+Console.WriteLine("Digite uma letra");
+string letra = Console.ReadLine();
 
-Console.WriteLine($"Quantidade em Estoque: {quantidadeEmEstoque}");
-Console.WriteLine($"Quantidade Compra: {quantidadeCompra}");
-Console.WriteLine($"É possivel realizar a venda? {possivelVenda}");
-
-if (quantidadeCompra == 0)
+if (letra == "a")
 {
-  Console.WriteLine("Venda inválida. Quantidade: 0");
+  Console.WriteLine("Vogal");
 }
-else if (possivelVenda)
+else if (letra == "e")
 {
-  Console.WriteLine("Venda realizada com sucesso.");
+  Console.WriteLine("Vogal");
 }
-else
+else if (letra == "i")
 {
-  Console.WriteLine("Desculpe. Nao temos a quantidade desejada em estoque.");
-  
+  Console.WriteLine("Vogal");
+}
+else if (letra == "o")
+{
+  Console.WriteLine("Vogal");
+}
+else if (letra == "u")
+{
+  Console.WriteLine("Vogal");
+}
+else 
+{
+    Console.WriteLine("Não é uma vogal");
 }
